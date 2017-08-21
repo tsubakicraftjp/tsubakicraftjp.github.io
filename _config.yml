@@ -21,7 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tsubaki_kougei
 github_username:  kazz12211
-show_downloads: true
+show_downloads: false
 date-format: "%Y-%m-%d %H:%M"
 github:
   owner_url: https://github.com/tsubakicraftjp

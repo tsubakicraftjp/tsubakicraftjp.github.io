@@ -59,3 +59,20 @@ a.post-content:hover {
 a.post-content:visited {
   color: #b0b0b0;
 }
+
+.top-link {
+  position: absolute; top:4px; right:8px;
+  color: #c0c0c0;
+}
+.top-link h3 {
+  font-size:16px;
+}
+.top-link a {
+  color: #b0b0b0;
+}
+.top-link a:hover {
+  color: #fff;
+}
+.top-link a:visited {
+  color: #b0b0b0;
+}
