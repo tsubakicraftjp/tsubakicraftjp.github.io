@@ -24,7 +24,7 @@ github_username:  kazz12211
 show_downloads: true
 date-format: "%Y-%m-%d %H:%M"
 github:
-  repository_name: github.com/tsubakicraftjp
+  owner_url: https://github.com/tsubakicraftjp
 google_analytics:
 # Build settings
 markdown: kramdown
