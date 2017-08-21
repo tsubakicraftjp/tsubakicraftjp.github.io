@@ -1,0 +1,61 @@
+---
+---
+
+@import "jekyll-theme-slate";
+
+.home {
+  background: #0e0e0e;
+  padding: 10px 20px;
+}
+
+.page-heading {
+  font-size: 20px;
+  color: #c0c0c0;
+}
+
+.post-list h2 {
+  font-size: 18px;
+  color: #e0e0e0;
+}
+
+.post-meta {
+  color: #b0b0b0;
+}
+
+a.post-link {
+  color: #b0b0b0;
+}
+a.post-link:hover {
+  color: #fff;
+}
+a.post-link:visited {
+  color: #b0b0b0;
+}
+.post {
+  padding: 4px 20px 4px 40px;
+  background: #0e0e0e;
+}
+
+.post-header {
+  color: #e0e0e0;
+}
+.post-title {
+  color: #e0e0e0;
+  font-size: 24px;
+}
+.post-content {
+  color: #c0c0c0;
+}
+
+.post-content h1,h2,h3,h4,h5,h6 {
+  color: #c0c0c0;
+}
+a.post-content {
+  color: #b0b0b0;
+}
+a.post-content:hover {
+  color: #fff;
+}
+a.post-content:visited {
+  color: #b0b0b0;
+}
