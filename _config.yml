@@ -29,8 +29,11 @@ google_analytics:
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-slate
+pagenate: 5
+paginate_path: "/blog/page:num/"
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
