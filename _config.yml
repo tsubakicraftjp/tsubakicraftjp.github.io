@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: TSUBAKI CRAFT 〜 椿工藝舎
+title: TSUBAKI CRAFT
 email: tsubaki.kougei@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   ギターや革製品を手作りしている工房です。
