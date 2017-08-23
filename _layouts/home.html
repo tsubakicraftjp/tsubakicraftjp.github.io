@@ -4,23 +4,20 @@ layout: default
 
 <div class="home">
 
-  <div class="top-link"><h3><a href="/about">椿工藝舎について</a></h3></div>
+  <div class="top-link"></h3></div>
   <h1 class="page-heading">投稿</h1>
 
   {{ content }}
 
-  <ul class="post-list">
+  <table class="post-list table-striped">
     {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
+      {% assign date_format = site.date_format | default: "%Y-%m-%d %H:%M" %}
+      <tr>
+        <td><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></td>
+        <td><span class="post-meta">{{ post.date | date: date_format }}</span></td>
+      </tr>
     {% endfor %}
-  </ul>
+  </table>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 

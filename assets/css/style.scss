@@ -76,3 +76,42 @@ a.post-content:visited {
 .top-link a:visited {
   color: #b0b0b0;
 }
+
+.table-striped {
+  border-collapse: collapse;
+  border: 0px solid;
+  width:100%;
+}
+
+.table-striped tr {
+}
+
+.table-striped tr:nth-child(even) {
+  background: #0f0f0f;
+}
+
+.table-striped th {
+  border: 0px solid;
+}
+
+.table-striped td {
+  border: 0px solid;
+}
+
+.site-footer {
+  color: #fff;
+}
+
+.site-footer table {
+  float:right;
+  border-collapse: collapse;
+  border: 0px solid;
+}
+
+.site-footer th td {
+  border:0px solid;
+}
+
+.site-footer a {
+  text-decoration: none;
+}

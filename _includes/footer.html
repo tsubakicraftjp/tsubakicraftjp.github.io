@@ -1,0 +1,21 @@
+<footer class="site-footer">
+  <table>
+    <tr>
+      {%if site.homepage_url %}
+      <td>
+        <a href="{{ site.homepage_url }}">{{ site.homepage_url }}</a>
+      </td>
+      {% endif %}
+      {% if site.github_username %}
+      <td>
+        {% include icon-github.html username=site.github_username %}
+      </td>
+      {% endif %}
+      {% if site.twitter_username %}
+      <td>
+        {% include icon-twitter.html username=site.twitter_username %}
+      </td>
+      {% endif %}
+    </tr>
+  </table>
+</footer>

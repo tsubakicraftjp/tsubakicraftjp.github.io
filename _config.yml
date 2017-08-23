@@ -15,21 +15,23 @@
 # in the templates via {{ site.myvariable }}.
 title: TSUBAKI CRAFT
 email: tsubaki.kougei@gmail.com
+author: Kazuo Tsubaki
 description: > # this means to ignore newlines until "baseurl:"
   ギターや革製品を手作りしている工房です。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tsubaki_kougei
 github_username:  kazz12211
+homepage_url: http://tsubakicraft.jp
 show_downloads: false
-date-format: "%Y-%m-%d %H:%M"
+date_format: "%Y-%m-%d %H:%M"
 github:
   owner_url: https://github.com/tsubakicraftjp
 google_analytics:
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-slate
-pagenate: 5
+paginate: 5
 paginate_path: "/blog/page:num/"
 plugins:
   - jekyll-feed
