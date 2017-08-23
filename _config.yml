@@ -17,7 +17,7 @@ title: TSUBAKI CRAFT
 email: tsubaki.kougei@gmail.com
 author: Kazuo Tsubaki
 description: > # this means to ignore newlines until "baseurl:"
-  ギターや革製品を手作りしている工房です。
+  TSUBAKI CRAFTはギターや革製品を手作りしている工房です。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tsubaki_kougei
