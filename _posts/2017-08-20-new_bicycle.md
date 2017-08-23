@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "新たに開発しようと思っている自転車"
+title:  "新たに開発しようと思っている自転車　〜　木製軽量フレームと車載コンピューター"
 date:   2017-08-21 20:40:47 +0900
+author: Kazuo Tsubaki
 categories: 自転車
 tags: 自転車
 ---

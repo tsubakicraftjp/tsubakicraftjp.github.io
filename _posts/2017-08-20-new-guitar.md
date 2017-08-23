@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "新たに開発しようと思っているギター"
+title:  "新たに開発しようと思っているギター　〜　木以外の素材・極端なスキャロップド加工指板・デジタル信号処理"
 date:   2017-08-20 15:40:47 +0900
+author: Kazuo Tsubaki
 categories: ギター
 tags: ギター
 ---

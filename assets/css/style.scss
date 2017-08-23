@@ -78,6 +78,7 @@ a.post-content:visited {
 }
 
 .table-striped {
+  margin: 20px auto;
   border-collapse: collapse;
   border: 0px solid;
   width:100%;
@@ -96,6 +97,8 @@ a.post-content:visited {
 
 .table-striped td {
   border: 0px solid;
+  line-height: 1.2em;
+  padding: 2px 2px;
 }
 
 .site-footer {
@@ -108,10 +111,21 @@ a.post-content:visited {
   border: 0px solid;
 }
 
-.site-footer th td {
+.site-footer th {
+  border:0px solid;
+}
+.site-footer td {
   border:0px solid;
 }
 
 .site-footer a {
   text-decoration: none;
+}
+
+.top-link-img {
+  position: relative;
+  margin: 0 auto;
+  max-width: 739px;
+  padding: 5px;
+  margin: 10px 0 10px 0;
 }

@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Nu Series Modular Pickup"
+title:  "Nu Series Modular Active Pickup"
 date:   2017-08-22 11:28:47 +0900
+author: Kazuo Tsubaki
 categories: ギター
 ---
 最近見つけたCYCFI Research社が製造販売するデバイデッドピックアップの[Nu Series Modular Active Pickup](http://www.cycfi.com/projects/nu-series/)。

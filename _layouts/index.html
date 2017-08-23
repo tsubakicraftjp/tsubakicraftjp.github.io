@@ -4,10 +4,11 @@ layout: default
 
 <div class="home">
 
-  <div class="top-link"></h3></div>
-  <h1 class="page-heading">投稿</h1>
-
-  {{ content }}
+  <div class="top-link"></div>
+  <p class="page-heading">開発メモ</p>
+  <div style="color:#a0a0a0">
+    {{ content }}
+  </div>
 
   <table class="post-list table-striped">
     {% for post in site.posts %}

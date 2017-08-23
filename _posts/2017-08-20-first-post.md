@@ -2,6 +2,7 @@
 layout: post
 title:  "新しいブログのスタート！"
 date:   2017-08-20 13:41:47 +0900
+author: Kazuo Tsubaki
 categories: ブログ
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "入門用のFPGAボード"
 date:   2017-08-21 20:57:47 +0900
+author: Kazuo Tsubaki
 categories: 電子工作
 ---
 FPGAに興味があって調べています。
