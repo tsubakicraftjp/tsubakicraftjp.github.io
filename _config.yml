@@ -25,6 +25,7 @@ github_username:  kazz12211
 homepage_url: http://tsubakicraft.jp
 show_downloads: false
 date_format: "%Y-%m-%d %H:%M"
+short_date_format: "%Y-%m-%d"
 github:
   owner_url: https://github.com/tsubakicraftjp
 google_analytics:

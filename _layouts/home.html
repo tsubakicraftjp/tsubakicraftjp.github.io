@@ -11,7 +11,7 @@ layout: default
 
   <table class="post-list table-striped">
     {% for post in site.posts %}
-      {% assign date_format = site.date_format | default: "%Y-%m-%d %H:%M" %}
+      {% assign date_format = site.short_date_format | default: "%Y-%m-%d" %}
       <tr>
         <td><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></td>
         <td><span class="post-meta">{{ post.date | date: date_format }}</span></td>
