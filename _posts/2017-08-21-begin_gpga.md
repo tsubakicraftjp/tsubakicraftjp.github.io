@@ -2,7 +2,7 @@
 layout: post
 title:  "入門用のFPGAボード"
 date:   2017-08-21 20:57:47 +0900
-categories: ブログ 電子工作
+categories: 電子工作
 ---
 FPGAに興味があって調べています。
 現時点で[MacnicaのOdysseyボード](https://service.macnica.co.jp/catalog/121161)と[CQ出版社のMAX10-FB](http://select.marutsu.co.jp/list/detail.php?id=7)というボードを持っています。どちらもIntel (Altera)のMAX-10を搭載したもの。
