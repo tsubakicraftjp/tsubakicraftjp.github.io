@@ -14,7 +14,7 @@ layout: default
       {% assign date_format = site.short_date_format | default: "%Y-%m-%d" %}
       <tr>
         <td><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></td>
-        <td><span class="post-meta">{{ post.date | date: date_format }}</span></td>
+        <td><span class="post-meta" nowrap>{{ post.date | date: date_format }}</span></td>
       </tr>
     {% endfor %}
   </table>
