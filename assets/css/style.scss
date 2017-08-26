@@ -3,6 +3,19 @@
 
 @import "jekyll-theme-slate";
 
+a {
+  color: #c0c0c0;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #fff
+}
+
+a.visited {
+  color: #c0c0c0;
+}
+
 .home {
   background: #0e0e0e;
   padding: 10px 20px;
@@ -22,15 +35,6 @@
   color: #b0b0b0;
 }
 
-a.post-link {
-  color: #b0b0b0;
-}
-a.post-link:hover {
-  color: #fff;
-}
-a.post-link:visited {
-  color: #b0b0b0;
-}
 .post {
   padding: 4px 20px 4px 40px;
   background: #0e0e0e;
@@ -50,15 +54,6 @@ a.post-link:visited {
 .post-content h1,h2,h3,h4,h5,h6 {
   color: #c0c0c0;
 }
-a.post-content {
-  color: #b0b0b0;
-}
-a.post-content:hover {
-  color: #fff;
-}
-a.post-content:visited {
-  color: #b0b0b0;
-}
 
 .top-link {
   position: absolute; top:4px; right:8px;
@@ -67,20 +62,12 @@ a.post-content:visited {
 .top-link h3 {
   font-size:16px;
 }
-.top-link a {
-  color: #b0b0b0;
-}
-.top-link a:hover {
-  color: #fff;
-}
-.top-link a:visited {
-  color: #b0b0b0;
-}
 
 .table-striped {
   margin: 20px auto;
   border-collapse: collapse;
-  border: 0px solid;
+  border: none;
+  border-bottom: 1px groove;
   width:100%;
 }
 
@@ -88,17 +75,19 @@ a.post-content:visited {
 }
 
 .table-striped tr:nth-child(even) {
-  background: #0f0f0f;
+  background: #242424;
 }
 
 .table-striped th {
-  border: 0px solid;
+  border-bottom: 1px groove;
+  padding: 2px 4px;
+  background: #000;
 }
 
 .table-striped td {
-  border: 0px solid;
+  border: none;
   line-height: 1.2em;
-  padding: 2px 2px;
+  padding: 4px 4px;
 }
 
 .site-footer {
