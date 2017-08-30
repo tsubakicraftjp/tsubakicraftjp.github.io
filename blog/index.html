@@ -27,7 +27,7 @@ layout: default
     {% else %}
       <span class="previous">前</span>
     {% endif %}
-    <span class="page_number ">ページ: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    <span class="page_number" style="color:#a0a0a0">ページ: {{ paginator.page }} of {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
       <a href="{{ paginator.next_page_path }}" class="next">後</a>
     {% else %}
