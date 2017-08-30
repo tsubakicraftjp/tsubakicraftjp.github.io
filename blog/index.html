@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="top-link"><a href="/">ホーム</a></div>
+<div style="padding:20px 10px;background:#000">
+<p class="page-heading">開発メモ</p>
+<table class="post-list table-striped">
+    <thead>
+      <tr>
+        <th>タイトル</th>
+        <th>投稿日</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for post in paginator.posts %}
+      {% assign date_format = site.short_date_format | default: "%Y-%m-%d" %}
+      <tr>
+        <td><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></td>
+        <td nowrap><span class="post-meta" nowrap>{{ post.date | date: date_format }}</span></td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">前</a>
+    {% else %}
+      <span class="previous">前</span>
+    {% endif %}
+    <span class="page_number ">ページ: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">後</a>
+    {% else %}
+      <span class="next ">後</span>
+    {% endif %}
+  </div>
+</div>

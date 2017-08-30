@@ -1,32 +1,12 @@
 ---
 layout: default
 ---
-
 <div class="home">
+  <div class="top-link"><a href="/blog">ブログ</a></div>
 
-  <div class="top-link"></div>
-  <p class="page-heading">開発メモ</p>
   <div style="color:#a0a0a0">
     {{ content }}
   </div>
-
-  <table class="post-list table-striped">
-    <thead>
-      <tr>
-        <th>タイトル</th>
-        <th>投稿日</th>
-      </tr>
-    </thead>
-    <tbody>
-    {% for post in site.posts %}
-      {% assign date_format = site.short_date_format | default: "%Y-%m-%d" %}
-      <tr>
-        <td><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></td>
-        <td nowrap><span class="post-meta" nowrap>{{ post.date | date: date_format }}</span></td>
-      </tr>
-    {% endfor %}
-    </tbody>
-  </table>
 
   <p style="color:#a0a0a0">subscribe via <a href="{{ "/feed.xml" | relative_url }}">RSS</a></p>
   <p style="color:#a0a0a0">{{ site.description }}</p>
