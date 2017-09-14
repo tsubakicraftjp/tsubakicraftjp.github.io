@@ -203,3 +203,5 @@ HTTPリクエストを受け取ったらGuitarCalculatorコンポーネントの
 
 これを作ったときはSpring Bootを使ってみたかっただけでした。この程度のプログラムですとSpringを使わずにAngularJSを使ってクライアントサイドだけで実装した方がお手軽で良かったかもしれません。
 ソースコードの改変やデプロイは自由に行っていただいて構いませんしクレジットも不要です。
+
+*追記（平成29年9月14日）　[Electron版](https://github.com/kazz12211/guitarcalc)をGitHubに載せました。*
