@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "作品か製品か・芸術家か職人か"
+title:  "芸術家か職人か"
 date:   2017-11-24 16:00:00 +0900
 author: Kazuo Tsubaki
 categories: ギター
